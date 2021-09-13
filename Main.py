@@ -27,4 +27,3 @@ for elemIndex in range(7, len(list_tr), 7):
 file = open("text.txt", "a+")
 file.write(temp_str[:-2])
 file.close()
-
